@@ -14,7 +14,7 @@ and Power BI for executive-level dashboards.
 
 ## Power BI Dashboards
 
-### 1️⃣ Sales Performance Overview
+### 1️) Sales Performance Overview
 This dashboard provides a high-level view of overall sales performance over time,
 focusing on monthly trends and key KPIs.
 
@@ -33,7 +33,7 @@ focusing on monthly trends and key KPIs.
 
 ---
 
-### 2️⃣ Sales Breakdown Overview
+### 2️) Sales Breakdown Overview
 This dashboard analyzes the distribution of sales for the **top-performing month**.
 
 **Key Insights:**
