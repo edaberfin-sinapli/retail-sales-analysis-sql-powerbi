@@ -58,7 +58,20 @@ This dashboard analyzes the distribution of sales for the **top-performing month
 
 ---
 
-## Repository Structure
-- `data/` – raw retail sales dataset  
-- `sql/` – SQL scripts for data cleaning and reporting views  
-- `powerbi/` – Power BI dashboard screenshots  
+## Project Structure
+
+<pre>
+retail-sales-analysis-sql-powerbi/
+│
+├── data/
+│ └── superstore_fixed.csv
+│
+├── sql/
+│ └── general_sales_views.sql
+│
+├── powerbi/
+│ ├── sales_performance_overview.png
+│ └── sales_breakdown_overview.png
+│
+└── README.md
+</pre>
