@@ -47,7 +47,7 @@ This dashboard analyzes the distribution of sales for the **top-performing month
 - Sales by category (top-performing month)
 - Sales by segment distribution
 
-> All visuals represent the distribution of total sales for the month with the highest overall performance.
+> All visuals show the sales distribution for the highest performing month.
 
 ---
 
