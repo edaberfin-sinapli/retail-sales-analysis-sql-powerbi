@@ -1,64 +1,81 @@
 # Retail Sales Analysis (SQL + Power BI)
 
-End-to-end sales analysis project using SQL for data preparation and reporting,
-and Power BI for executive-level dashboards.
+## Proje Özeti
+
+Bu projede, perakende satış verileri kullanılarak uçtan uca bir satış analizi gerçekleştirilmiştir.  
+Veri hazırlama ve raporlama süreçleri SQL ile yürütülmüş, elde edilen veriler Power BI kullanılarak yönetim seviyesinde dashboard’lara dönüştürülmüştür.  
+Amaç; satış performansını üst seviyede izlemek, trendleri analiz etmek ve karar destek süreçlerine katkı sağlayacak bir raporlama yapısı oluşturmaktır.
 
 ---
 
-## Project Workflow
-1. Raw retail sales data cleaned and standardized using SQL
-2. Monthly and KPI-focused reporting views created
-3. Views consumed in Power BI to build two analytical dashboards
+## Cevaplanan İş Soruları
+
+Bu proje kapsamında aşağıdaki iş sorularına yanıt aranmıştır:
+
+- Satışlar zaman içerisinde nasıl değişiyor? (trend analizi)
+- Aylık satış performansında artış ve düşüşler nasıl gerçekleşiyor? (MoM değişim)
+- En yüksek satış hangi ayda gerçekleşmiştir?
+- Satış performansı bölgelere göre nasıl dağılıyor?
+- Hangi ürün kategorileri daha yüksek gelir sağlıyor?
+- Müşteri segmentlerine göre satış dağılımı nasıldır?
+- Kısa vadeli satış değişimleri ile uzun vadeli trend arasında nasıl bir ilişki vardır?
 
 ---
 
-## Power BI Dashboards
+## Proje Süreci
+
+1. Ham satış verisi SQL ile temizlenmiş ve standart hale getirilmiştir  
+2. Aylık satışlar ve KPI odaklı raporlama view’leri oluşturulmuştur  
+3. Bu view’ler Power BI’a aktarılmış ve iki ayrı dashboard oluşturulmuştur
+
+---
+
+## Power BI Dashboard’ları
 
 ### 1️) Sales Performance Overview
-This dashboard provides a high-level view of overall sales performance over time,
-focusing on monthly trends and key KPIs.
+Bu dashboard, satışların zaman içerisindeki genel performansını ve temel KPI’ları göstermektedir.
 
-**Key Insights:**
-- Sales show noticeable volatility across months, indicating seasonal or campaign-driven effects.
-- The latest month experienced a significant negative month-over-month change (**-35.27%**),
-  despite a positive long-term upward trend.
-- Peak monthly sales occurred toward the end of the year, suggesting stronger Q4 performance.
-- Month-over-month changes highlight sharp increases and drops, emphasizing the importance of
-  monitoring short-term sales dynamics.
+**Öne Çıkan Bulgular:**
+- Satışlar aylara göre dalgalı bir yapı göstermektedir (sezonsallık / kampanya etkisi)
+- Son ayda satışlarda ciddi bir düşüş gözlemlenmiştir (MoM: -35.27%)
+- Buna rağmen uzun vadede genel trend artış yönündedir
+- Yılın son çeyreğinde (Q4) satışların zirve yaptığı görülmektedir
+- Aylık değişimlerin yüksek olması, kısa vadeli takibin önemini göstermektedir
 
-**Included Visuals:**
-- Monthly sales trend
-- Month-over-month sales change
-- KPI cards for latest month sales and MoM %
+**Dashboard İçeriği:**
+- Aylık satış trendi
+- Aydan aya değişim (MoM)
+- Son ay satış KPI kartı
+- MoM değişim yüzdesi
 
 ---
 
 ### 2️) Sales Breakdown Overview
-This dashboard analyzes the distribution of sales for the **top-performing month**.
+Bu dashboard, en yüksek performans gösteren ayın detaylı dağılımını analiz etmektedir.
 
-**Key Insights:**
-- **November** stands out as the highest-performing month with approximately **$88K** in total sales.
-- The **East region** leads regional performance, contributing the largest share of sales.
-- **Technology** is the top-performing product category, followed by Furniture and Office Supplies.
-- The **Consumer segment** accounts for over half of total sales, making it the primary revenue driver.
+**Öne Çıkan Bulgular**
+- En yüksek satış hacmi Kasım ayında (~88K) gerçekleşmiştir
+- East bölgesi, toplam satışların en büyük payını oluşturmaktadır
+- Technology kategorisi en yüksek performansı göstermektedir
+- Consumer segmenti, toplam satışların yarısından fazlasını oluşturmaktadır
 
-**Included Visuals:**
-- Sales by region (top-performing month)
-- Sales by category (top-performing month)
-- Sales by segment distribution
+**Dashboard İçeriği:**
+- Bölgeye göre satış dağılımı
+- Kategoriye göre satış dağılımı
+- Segmente göre satış dağılımı
 
-> All visuals show the sales distribution for the highest performing month.
-
----
-
-## Data Source
-- Dataset: Retail Sales Dataset (2015–2018)
-- Source: Kaggle
-- The dataset is included in this repository and used as the input for SQL-based analysis.
+> Tüm görseller, en yüksek satış yapılan ayın verilerini göstermektedir.
 
 ---
 
-## Project Structure
+## Veri Kaynağı
+- Veri Seti: Retail Sales Dataset (2015–2018)
+- Kaynak: Kaggle
+- Veri seti projeye dahil edilmiştir ve SQL analiz sürecinde kullanılmıştır
+
+---
+
+## Proje Yapısı
 
 <pre>
 retail-sales-analysis-sql-powerbi/
