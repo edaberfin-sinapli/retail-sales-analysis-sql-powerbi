@@ -32,7 +32,7 @@ Bu proje kapsamında aşağıdaki iş sorularına yanıt aranmıştır:
 
 ## Power BI Dashboard’ları
 
-### 1️) Sales Performance Overview
+### 1️) Sales Performance Overview (Satış Performansı Genel Görünüm)
 Bu dashboard, satışların zaman içerisindeki genel performansını ve temel KPI’ları göstermektedir.
 
 **Öne Çıkan Bulgular:**
@@ -50,7 +50,7 @@ Bu dashboard, satışların zaman içerisindeki genel performansını ve temel K
 
 ---
 
-### 2️) Sales Breakdown Overview
+### 2️) Sales Breakdown Overview (Satış Dağılımı Genel Görünüm)
 Bu dashboard, en yüksek performans gösteren ayın detaylı dağılımını analiz etmektedir.
 
 **Öne Çıkan Bulgular**
