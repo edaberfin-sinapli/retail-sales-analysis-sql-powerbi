@@ -84,8 +84,8 @@ retail-sales-analysis-sql-powerbi/
 │ └── superstore_fixed.csv
 │
 ├── powerbi/
-│ ├── sales_breakdown_overview.png
-│ └── sales_performance_overview.png
+│ ├── dashboard_1_sales_performance_overview.png
+│ └── dashboard_2_sales_breakdown_overview.png
 │
 ├── sql/
 │ └── general_sales_views.sql
